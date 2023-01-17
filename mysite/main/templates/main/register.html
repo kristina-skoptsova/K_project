@@ -1,0 +1,17 @@
+{% extends 'main/basa.html' %}
+
+{% block title %}
+Регистрация
+{% endblock %}
+
+    <div class="content-section">
+        <form action="" method="POST">{% csrf_token %}
+
+            {{form.as_p}}
+
+            <div class="form-group">
+                <button class="btn btn-outline-info" type="submit">Регистрация</button>
+            </div>
+        </form>
+
+{% endblock content %}
