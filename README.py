@@ -1,3 +1,2 @@
-я утт
-
-#Тестирую свой коммит
+import sys
+print(sys.path)
